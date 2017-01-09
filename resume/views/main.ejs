@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Resume</title>
+    <!-- Bootstrap -->
+    <link href="./stylesheets/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">简历</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav switch">
+                    <li class="active"><a href="#">相关资料</a></li>
+                    <li><a href="#">联系方式</a></li>
+                </ul>
+ <!--                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">索引 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#experience">从业经历</a></li>
+                            <li><a href="#education">教育背景</a></li>
+                            <li><a href="#skill">相关技能</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#project">作品示例</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- 进度条 -->
+    <!--     <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:15%;">
+            <span >60% Complete</span>
+        </div>
+    </div> -->
+    <div id="info">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">求职意向</h3>
+            </div>
+            <div class="panel-body">
+                前端开发
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">求职状态</h3>
+            </div>
+            <div class="panel-body">
+                随时到岗
+            </div>
+        </div>
+        <div class="panel panel-default" id="experience">
+            <div class="panel-heading">
+                <h3 class="panel-title">从业经历</h3>
+            </div>
+            <div class="panel-body"></div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">北京乐宠科技有限公司 客户服务专员 - 2015-2016</div>
+                <div class="panel-body">
+                    从事客户服务工作，通过电话和网络处理多种渠道的客户反馈，投诉建议，售后处理。工作期间还参与了业务流程梳理，服务流程规范，后勤物资管理等工作。在职期间能够快速学习新业务，及时处理并独立解决工作中的新问题，并完善相关处理流程。
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">北京麦拓企业策划有限公司 Apple Product Professional - 2013-2015
+                </div>
+                <div class="panel-body">
+                    从事产品销售工作，驻店销售公司经销的苹果产品。工作期间主动学习了相关产品的系统维修相关知识，可以独立处理软件售后。参与库存管理规划，工作期间实现0滞销。并统计销售数据，根据市场情况调整销售策略，在职期间月销售额均突破百万。在职期间与人为善，懂得团队合作，能够积极融入团队。
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">中国移动通信集团北京有限公司 10086话务员 - 2008-2013
+                </div>
+                <div class="panel-body">
+                    从事客户服务工作，通过电话受理客户业务咨询，投诉建议，售后处理等工作。工作期间被评为业务能手，有多年客户处理经验，熟悉客户心理。
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" id="education">
+            <!-- Default panel contents -->
+            <div class="panel-heading">教育背景</div>
+            <!-- Table -->
+            <table class="table">
+                <tr>
+                    <th>学校</th>
+                    <th>专业</th>
+                    <th>级别</th>
+                    <th>入学年份</th>
+                </tr>
+                <tr>
+                    <td>中国政法大学</td>
+                    <td>法律事务</td>
+                    <td>专科</td>
+                    <td>2006</td>
+                </tr>
+                <tr>
+                    <td>北京邮电大学</td>
+                    <td>市场营销</td>
+                    <td>本科</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>极客学院</td>
+                    <td>web大前端就业班</td>
+                    <td>19期1班</td>
+                    <td>2016</td>
+                </tr>
+            </table>
+        </div>
+        <div class="panel panel-success" id="skill">
+            <div class="panel-heading">
+                <h3 class="panel-title">相关技能</h3>
+            </div>
+            <div class="panel-body">
+                熟悉W3C标准，能够利用DIV+CSS进行网页排版布局; 能够使用PS进行切图和修改;
+            </div>
+            <div class="panel-body">
+                能够利用HTML和CSS进行跨平台开发;
+            </div>
+            <div class="panel-body">
+                熟悉原生JS以及jQuery等前端开发框架;
+            </div>
+            <div class="panel-body">
+                熟悉模块化工具requireJS;
+            </div>
+            <div class="panel-body">
+                初步了解node.js,php,mysql等后端开发技术;
+            </div>
+            <div class="panel-body">
+                熟练使用前端工程化工具grunt/glup以及版本管理工具git;
+            </div>
+            <div class="panel-body">
+                熟悉css预处理语言less;
+            </div>
+            <div class="panel-body">
+                有一定的移动开发经验，能够进行相应式页面开发;
+            </div>
+        </div>
+        <div class="panel panel-info">
+            <div id="project" class="panel-heading">作品示例</div>
+            <div class="panel-body">
+                GitHub个人版本库地址：<a href="https://github.com/pupulul">https://github.com/pupulul</a>
+            </div>
+            <div class="panel-heading">作品一：3D魔方开发</div>
+            <div class="panel-body">
+                作品描述：利用css3技术开发3D魔方，并让其运动起来。
+            </div>
+            <div class="panel-body">
+                所用技术：主要利用css的transform、animation、perspective等。
+            </div>
+            <div class="panel-body">
+                预览地址：<a href=" https://github.com/pupulul/HomeWorks/tree/master/Task%20Three/CSS3%E5%BC%80%E5%8F%913D%E9%AD%94%E6%96%B9/MagicCube">3D魔方开发</a>
+            </div>
+            <div class="panel-heading">作品二：响应式布局</div>
+            <div class="panel-body">
+                作品描述：通过媒体查询判断设备尺寸，进而呈现不同的渲染结果。
+            </div>
+            <div class="panel-body">
+                所用技术：主要是media query的利用以及移动端利用比例作为横向尺寸。
+            </div>
+            <div class="panel-body">
+                预览地址：<a href=" https://github.com/pupulul/HomeWorks/tree/master/Task%20Four/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%9A%84%E7%99%BE%E5%BA%A6%E9%A6%96%E9%A1%B5/baidu">响应式布局</a>
+            </div>
+            <div class="panel-heading">作品三：极客学院首页
+            </div>
+            <div class="panel-body">
+                作品描述：开发极客学院首页。
+            </div>
+            <div class="panel-body">
+                所用技术：主要是下拉菜单、html5新增元素、轮播、jQuery以及CSS hack。
+            </div>
+            <div class="panel-body">
+                预览地址：<a href=" https://github.com/pupulul/HomeWorks/tree/master/Task%20Seven/%E6%9E%81%E5%AE%A2%E5%AD%A6%E9%99%A2%E5%AE%98%E7%BD%91%E4%BA%8C%E7%BA%A7%E8%8F%9C%E5%8D%95%E9%A1%B5%E9%9D%A2-%E8%AF%BE%E7%A8%8B%E5%BA%93%E9%A1%B5%E9%9D%A2/Geek">极客学院首页</a>
+            </div>
+            <div class="panel-heading">作品四：PHP版本移动客户端</div>
+            <div class="panel-body">
+                作品描述：利用ajax调用数据库内对应数据。
+            </div>
+            <div class="panel-body">
+                所用技术：初探php以及mysql初探，ajax与php和mysql交互
+            </div>
+            <div class="panel-body">
+                预览地址：<a href="https://github.com/pupulul/HomeWorks/tree/master/Task%20Eight/%E5%BC%80%E5%8F%91%E6%89%8B%E6%9C%BA%E7%89%88%E6%9C%AC%E7%9A%84%E7%99%BE%E5%BA%A6%E6%96%B0%E9%97%BB/baidunews
+">PHP版本移动客户端</a>
+            </div>
+            <div class="panel-heading">作品五：nodejs初接触</div>
+            <div class="panel-body">
+                作品描述：利用nodejs实现php版本客户端后台管理。
+            </div>
+            <div class="panel-body">
+                所用技术：初次接触express框架，利用npm包管理工具和orm第三方工具。
+            </div>
+            <div class="panel-body">
+                预览地址：<a href="https://github.com/pupulul/HomeWorks/tree/master/Task%20Nine/%E5%BC%80%E5%8F%91Nodejs%E7%89%88%E6%9C%AC%E7%9A%84%E7%99%BE%E5%BA%A6%E6%96%B0%E9%97%BB%E7%B3%BB%E7%BB%9F/express-baidu">nodejs初接触</a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <table class="table table-hover">
+        <tr>
+        	<th>联系方式</th>
+        	<th>内容</th>
+        </tr>
+        	<tr>
+        		<td>移动电话</td>
+        		<td>15001073544</td>
+        	</tr>
+        	<tr>
+        		<td>E-mail</td>
+        		<td>voxst@163.com</td>
+        	</tr>
+        	<tr class="danger">
+        		<td>微信公众号（未完成）</td>
+        		<td>ZXDLYB</td>
+        	</tr>
+        </table>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./javascripts/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./javascripts/bootstrap.js"></script>
+    <script src="./javascripts/main.js"></script>
+</body>
+
+</html>
